@@ -1,0 +1,126 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 09/03/2020, 04:54:44 PM
+    Author     : usuario acer
+*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+form .avatar
+{
+    display: block;
+    width: 50%;
+}
+/*Barra de navegacion*/
+.navbar .container-avatar .avatar,
+.pub_image .container-avatar img{
+    display: block;
+    border-radius: 900px;
+    margin-left:2%;
+    width: 40px;
+    height: 40px;
+}
+.navbar{
+    padding: 0px;
+    margin: 0px;
+}
+.fixed-top{
+    transition: all 5s;
+}
+
+
+
+
+
+.pub-image{
+    margin-bottom: 25px;
+}
+
+.pub_image .container-avatar{
+    float: left;
+    margin-right: 15px;
+}
+.pub_image .data-user{
+    font-weight: bold;
+    line-height: 45px;
+
+}
+.pub_image .data-user a{
+    color: #444;
+}
+.pub_image .data-user .nick-name{
+    font-style: italic;
+    font-weight: normal;
+}
+.image-container{
+    overflow: hidden;
+}
+.description{
+    display: block;
+    padding: 12px;
+    padding-bottom: 0px;
+}
+.description .nickname{
+    color:gray;
+}
+.image-detail{
+    max-height: 500px;
+}
+/*Botones*/
+.btn-coments{
+    width: 35% !important;
+    height: 28px !important;
+    margin: 20px;
+    margin-left: 15px;
+    margin-top: 0px;
+}
+/*likes*/
+
+.likes img{
+    width: 20px;
+    margin:10px;
+    margin-top: 5px;
+   
+}
+/*Comments*/
+.comment{
+    margin: 10px;
+    
+    border-bottom: 1px solid #333;
+}
+/*Profile*/
+.info-user{
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccd1d1;
+}
+.info-user .container-avatar{
+    overflow: hidden;
+    
+}
+.info-user .container-avatar .avatar{
+    width: 100%;
+}
+/*People*/
+.people-title a{
+    text-decoration: none;
+    color:black;
+}
+
+/*-----------------------RESPONSIVE-----------------*/
+
+@media(max-width:380px){
+    .card > .card-header > .data-user{
+        font-size: 14px;
+    }
+    #pagination >nav{
+        
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+}
